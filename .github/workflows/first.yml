@@ -4,13 +4,13 @@ on: push
 
 jobs:
     job1:
-        name: First Job
+        name: First Job A
         runs-on: ubuntu-latest
         steps:
             - name: Step one
             - name: Step two
     job2:
-        name: Second Job
+        name: Second Job B
         runs-on: windows-latest
         steps:
             - name: Step one
