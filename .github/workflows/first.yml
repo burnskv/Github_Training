@@ -5,12 +5,14 @@ on: push
 jobs:
     job1:
         name: First Job A
+        uses: actions/checkout@v1
         runs-on: ubuntu-latest
         steps:
             - name: Step one
             - name: Step two
     job2:
         name: Second Job B
+        uses: actions/checkout@v1
         runs-on: windows-latest
         steps:
             - name: Step one
